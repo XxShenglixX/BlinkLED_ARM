@@ -1,14 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g2 -Map=Test.map -O0 --gc-sections -LC:/Users/Student/CoIDE/workspace/Test -TC:/Users/Student/CoIDE/workspace/Test/stm32f407vg_flash.ld -g">
-      <target file="Test.elf" lastModified="14d66116765">
-         <source file="..\obj\stm32f4xx_hal_gpio.o" lastModified="14d660fb68b"/>
-         <source file="..\obj\stm32f4xx_hal_cortex.o" lastModified="14d660fb5d0"/>
-         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="14d660fb563"/>
-         <source file="..\obj\system_stm32f4xx.o" lastModified="14d660fb60f"/>
-         <source file="..\obj\startup_stm32f429xx.o" lastModified="14d660fb45a"/>
-         <source file="..\obj\stm32f4xx_hal.o" lastModified="14d660fb4d7"/>
-         <source file="..\obj\main.o" lastModified="14d66116581"/>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g2 -Map=Test.map -O0 --gc-sections -LC:/Users/Shengli/CoIDE/workspace/blinkLED -TC:/Users/Shengli/CoIDE/workspace/blinkLED/stm32f407vg_flash.ld -g">
+      <target file="Test.elf" lastModified="14d936fde08">
+         <source file="..\obj\main.o" lastModified="14d936fc765"/>
+         <source file="..\obj\stm32f4xx_hal_cortex.o" lastModified="14d936fcb4b"/>
+         <source file="..\obj\Times.o" lastModified="14d936fc968"/>
+         <source file="..\obj\configuration.o" lastModified="14d936fcdba"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14d936fcbe1"/>
+         <source file="..\obj\stm32f4xx_hal.o" lastModified="14d936fc879"/>
+         <source file="..\obj\stm32f4xx_hal_gpio.o" lastModified="14d936fccc6"/>
+         <source file="..\obj\LED.o" lastModified="14d936fce94"/>
+         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="14d936fca60"/>
+         <source file="..\obj\startup_stm32f429xx.o" lastModified="14d936fc78e"/>
       </target>
    </processor>
 </history>
