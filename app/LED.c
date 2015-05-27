@@ -77,7 +77,6 @@ void SM_LED(State *state,int LED,int *Time)
 							if (getCurrentTime() - currentTime[LED] >= *Time)
 							{
 								currentTime[LED] = getCurrentTime();
-								turnOnLED(LED);
 								*state = LED_ON ;
 							}
 
